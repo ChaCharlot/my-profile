@@ -1,0 +1,122 @@
+/* Colors and fonts */
+
+body {
+	background-color: rgb(20, 20, 40);
+	color: rgb(210, 210, 210);
+	font-family: 'Playfair Display', serif;
+	font-size: 17px;
+	line-height: 1.6;
+	text-align: justify;
+}
+
+h1 {
+	color: whitesmoke;
+	font-weight: 900;
+	letter-spacing: 5px;
+	font-size: 40px;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+}
+
+h2, h3, h4, h5{
+	font-weight: bolder;
+	font-size: 40px;
+	font-family: Cookie;
+	text-align: center;
+}
+
+h2 {
+	color: #8BA2FF;
+}
+
+h3 {
+	color: #B5AAF9;
+}
+
+h4 {
+	color: #F3C6FD;
+}
+
+h5 {
+	color: #F3B8B3;
+}
+
+a {
+	text-decoration: none;
+	color: lightgrey;
+	font-weight: bold;
+	transition: color 0.3s ease;
+}
+
+a:hover {
+	color: grey;
+}
+
+
+/* Custom design with class (99% of design)*/
+
+
+.img-ovale {
+	width: 180px;
+	border-radius: 40%;
+}
+
+
+.card-black {
+	background-color: black;
+    padding: 60px;
+    box-shadow: 0px 10px 30px rgb(250 250 250 / 10%);
+    border-radius: 5px;
+    padding-bottom: 110px;
+    margin: 70px;
+    text-align: center;
+}
+
+.container {
+	width: 1100px;
+    margin: 100px auto;
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+.btn-white {
+	background-color: grey;
+	color: whitesmoke;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-white:hover {
+	color: grey;
+	background-color: lightgrey;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 30px;
+}
+
+.list-inline i {
+	font-size: 80px;
+}
+
+/* Design adjustments using id (1% design remaining) */
+
+#introduction p {
+	margin-bottom: 60px;
+}
